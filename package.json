@@ -1,0 +1,22 @@
+{
+  "name": "digikey-updater",
+  "version": "0.0.1",
+  "description": "Update EDA component library (SQL server) using Digi-Key API and emailer to noitfy designers and database maintainers of updated part statuses.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justinnuwin/DigiKey-SQL-Updater"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "bugs": {
+    "url": "https://github.com/justinnuwin/DigiKey-SQL-Updater/issues"
+  },
+  "homepage": "https://github.com/justinnuwin/DigiKey-SQL-Updater#readme",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Justin Nguyen"
+}
